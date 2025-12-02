@@ -23,6 +23,7 @@ No modules.
 
 | Name | Type |
 |------|------|
+| [github_repository.tfe_patterns](https://registry.terraform.io/providers/craigsloggett/github/0.1.14/docs/resources/repository) | resource |
 | [github_repository.github_admin](https://registry.terraform.io/providers/craigsloggett/github/0.1.14/docs/data-sources/repository) | data source |
 
 ## Inputs
