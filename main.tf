@@ -14,7 +14,7 @@ resource "github_repository" "tfe_patterns" {
   #    "terraform-aws-tfe-ec2-active-active",
   #    "terraform-aws-tfe-iam",
   #  ]
-  for_each = ["testing", "testing2"]
+  for_each = toset(["testing"])
 
   name                        = each.key
   allow_auto_merge            = true
