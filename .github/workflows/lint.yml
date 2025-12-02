@@ -1,0 +1,11 @@
+name: Lint
+
+on: pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Terraform
+    uses: craigsloggett-lab/.github/.github/workflows/lint-terraform.yml@main
