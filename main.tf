@@ -1,5 +1,6 @@
 resource "github_repository" "hashistack_aws_vpc" {
-  name = "hashistack-aws-vpc"
+  name        = "hashistack-aws-vpc"
+  description = "An infrastructure as code repository to manage the VPC used in my HashiStack lab."
 
   template_repository = "terraform-root-module-template"
 
