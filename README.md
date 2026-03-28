@@ -11,7 +11,9 @@ An infrastructure as code repository to manage this GitHub organization.
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_github"></a> [github](#provider\_github) | 0.2.5 |
 
 ## Modules
 
@@ -23,7 +25,9 @@ No inputs.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [github_repository.hashistack_aws_vpc](https://registry.terraform.io/providers/craigsloggett/github/0.2.5/docs/resources/repository) | resource |
 
 ## Outputs
 
