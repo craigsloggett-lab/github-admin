@@ -17,13 +17,13 @@ No providers.
 
 No modules.
 
-## Resources
-
-No resources.
-
 ## Inputs
 
 No inputs.
+
+## Resources
+
+No resources.
 
 ## Outputs
 
