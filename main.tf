@@ -10,4 +10,5 @@ resource "github_repository" "hashistack_aws_vpc" {
   allow_rebase_merge = false
 
   delete_branch_on_merge = true
+  allow_update_branch    = true
 }
