@@ -7,13 +7,11 @@ An infrastructure as code repository to manage this GitHub organization.
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.7 |
-| <a name="requirement_github"></a> [github](#requirement\_github) | 0.2.0 |
+| <a name="requirement_github"></a> [github](#requirement\_github) | 0.2.5 |
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_github"></a> [github](#provider\_github) | 0.2.0 |
+No providers.
 
 ## Modules
 
@@ -21,9 +19,7 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [github_repository.github_admin](https://registry.terraform.io/providers/craigsloggett/github/0.2.0/docs/data-sources/repository) | data source |
+No resources.
 
 ## Inputs
 
@@ -31,7 +27,5 @@ No inputs.
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| <a name="output_github_admin"></a> [github\_admin](#output\_github\_admin) | The result of the GitHub repository data source. |
+No outputs.
 <!-- END_TF_DOCS -->
