@@ -14,7 +14,7 @@ rule "terraform_module_pinned_source" {
 # Checks that Terraform modules sourced from a registry specify a version.
 rule "terraform_module_version" {
   enabled = true
-  exact   = false
+  exact   = true
 }
 
 # Enforces naming conventions for resources, data sources, etc.
