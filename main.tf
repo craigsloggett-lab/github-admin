@@ -11,4 +11,6 @@ resource "github_repository" "hashistack_aws_vpc" {
 
   delete_branch_on_merge = true
   allow_update_branch    = true
+
+  topics = ["terraform"]
 }
