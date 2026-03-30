@@ -28,6 +28,7 @@ No inputs.
 | Name | Type |
 |------|------|
 | [github_repository.hashistack_aws_vpc](https://registry.terraform.io/providers/craigsloggett/github/0.4.1/docs/resources/repository) | resource |
+| [github_repository.pingfederate_artifacts](https://registry.terraform.io/providers/craigsloggett/github/0.4.1/docs/resources/repository) | resource |
 
 ## Outputs
 
