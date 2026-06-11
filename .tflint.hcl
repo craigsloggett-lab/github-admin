@@ -25,7 +25,7 @@ rule "terraform_naming_convention" {
 
 plugin "terraform" {
   enabled = true
-  version = "0.13.0"
   source  = "github.com/terraform-linters/tflint-ruleset-terraform"
+  version = "0.14.1"
   preset  = "all"
 }
